@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  width: 100vw;  
+}
+
+#root {
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2CD96;
+}
+
+.card {
+  width: 70%;
+  min-height: 500px;
+  background-color: white;
+  display: flex;
+  -webkit-box-shadow: 5px 6px 32px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 6px 32px -8px rgba(0,0,0,0.75);
+  box-shadow: 5px 6px 32px -8px rgba(0,0,0,0.75);  
+}
+
+.content {
+  display: flex;
+}
+
+  .content .title {
+    min-width: 30%;
+    padding: 36px 0px 36px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #474956;
+    color: white;    
+  }  
+
+    .content .title .title__text {
+      display: flex;
+      flex-direction: column;
+      font-size: 24px;
+    }
+
+    .content .title .title__text .grid {
+      width: 60px;
+      height: 4px;
+      background-color: #ec7550;
+      margin: 6px 0px;
+    }
+
+  .content .profile {
+    display: flex;    
+  }
+
+  .content .profile .profile__img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -webkit-box-shadow: -2px 12px 32px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 12px 32px -8px rgba(0,0,0,0.75);
+    box-shadow: -2px 12px 32px -8px rgba(0,0,0,0.75);
+  }
+
+  .content .profile .profile__name {
+    padding: 12px;
+  }
+
+  .content .description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+  }
+
+  .content .description .description__footer {
+    position: absolute;
+    bottom: 0px;    
+    width: 100%;
+  }
+
+  .grid__footer_container {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+
+    .grid__footer {      
+      height: 2px;
+      background-color: rgba(216, 213, 213, 0.43);       
+    }
+
+    .grid__footer.darker {
+      background-color: rgba(216, 213, 213, 0.6);
+    }
+
+  .description .first_word {
+    font-size: 24px;
+  }
+
+  .description .description__footer_post_time {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: flex-end;
+    font-size: 12px;
+    color: #aaa;
+  }
+
+  .comment__container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width: 82px;  
+  }
+
+  .footer_data {
+    color: black;
+  }

@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;  
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #455A64;  
+}
+
+.content {
+  width: 70%;
+  margin-top: 42px;
+}
+
+.card {
+  display: flex;
+  background-color: #fff;  
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 11px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 4px 11px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 4px 11px 1px rgba(0,0,0,0.5);
+}
+
+.card__signup_text {
+  width: 60%;  
+  position: relative;
+}
+
+.signup_content {  
+  margin: 80px 60px 40px 60px;  
+  display: flex;
+  flex-direction: column;
+}
+
+.signup_content .title {
+  font-size: 36px;  
+  margin-bottom: 12px;
+}
+
+.signup_content .introduction {  
+  margin-bottom: 24px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #bcbcbc;
+}
+
+.card__signup_image {  
+  width: 40%;  
+}
+
+.card__signup_image img {
+  width: 100%;
+  height: 100%;
+}
+
+  .signup_content .social_media_button {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    padding: 14px;
+    border-radius: 4px;
+    border: solid 0.4px rgb(173, 167, 167);
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .signup_content .social_media_button:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+
+  .signup_content .social_media_button .social_media_text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    align-items: center;
+    font-weight: 500;
+    color: #7f7f7f;
+    
+  }
+
+  .signup_content .social_media_button img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .card__footer {
+    display: flex;
+    position: absolute;
+    bottom: 0px;    
+    width: 100%;
+  }
+  
+  .card__signup_text .card__footer .card__footer_text {
+    width: 100%;    
+    padding: 60px;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card__signup_text .card__footer .card__footer_text span:nth-child(2) {
+    color:#7f7f7f;
+    cursor: pointer;
+
+  }

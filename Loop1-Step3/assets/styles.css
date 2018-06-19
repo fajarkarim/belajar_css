@@ -1,0 +1,87 @@
+html {
+  min-height: 100%
+}
+
+body {
+  min-height: 100%;
+  background-color: #16A085;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #fff;
+  color: #5C5C65;
+  width: 600px;
+  margin-top: 80px;
+  border-radius: 4px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+  background-image: url("img/bicycle.png");
+  background-image: url(img/bicycle.png);    
+  background-position-y: 160px;
+  background-repeat: no-repeat;
+  background-size: 100%;  
+  height: 420px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.content__title {
+  display: flex;
+  justify-content: space-between;  
+  line-height: 44px;
+  flex-direction: column;
+}
+  .content__title.content__title_coution {
+    color: #B2C2CF;
+  }
+
+  .content__title.content__title_text {
+    position: relative;
+    display: flex;
+    flex-direction: row;    
+  }
+  .content__title.content__title_text span:first-child {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+
+  .content__title_icon {
+    align-self: center;
+    position: absolute;
+    right: 0px;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    border: solid 1px #B2C2CF;
+    border-radius: 50px;
+    width: 30px;    
+    transition: all ease-in-out 0.2s;
+  }
+
+  .content__title_icon:hover {
+    border: solid 5px rgb(200, 221, 236);
+  }
+
+
+.content__item {
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__item .price {
+  color: black;
+  font-weight:700;
+  font-size: 18px;
+}
